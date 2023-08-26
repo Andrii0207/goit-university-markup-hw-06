@@ -1,7 +1,17 @@
-.container {
+/* .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+} */
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 396px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
