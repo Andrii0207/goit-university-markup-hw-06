@@ -1,0 +1,19 @@
+.product-section {
+  padding-bottom: 120px;
+}
+
+.product-title {
+  margin-bottom: 72px;
+
+  color: var(--navyblue-color);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  gap: 24px;
+}

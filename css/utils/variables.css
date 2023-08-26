@@ -1,0 +1,16 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondaty-font: "Raleway", sans-serif;
+
+  --primary-white-color: #f4f4fd;
+  --secondary-white-color: #ffffff;
+  --navyblue-color: #2e2f42;
+  --iris-color: #4d5ae5;
+  --slate-color: #434455;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+  --dairy-color: #fcfcfc;
+  --lightslate-color: #8e8f99;
+  --primary-accent-color: #404bbf;
+  --secondary-accent-color: #31d0aa;
+}
