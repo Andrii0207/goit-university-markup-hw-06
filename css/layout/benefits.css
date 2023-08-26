@@ -1,37 +1,75 @@
-/* .benefits-section {
-  padding: 120px 0;
+@media screen and (max-width: 767px) {
+  .benefits-icon {
+    display: none;
+  }
+
+  .benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .benefits-item-title {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue-color);
+  }
+
+  .benefits-description {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+  }
 }
 
-.benefits-icon-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-  border-radius: 4px;
-  background-color: var(--cloud-color);
-}
+/* ========================================================= */
+/* ========================================================= */
 
-.benefits-item-title {
-  margin-bottom: 8px;
-  color: var(--navyblue-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
+@media screen and (min-width: 1128px) {
+  .benefits-section {
+    padding: 120px 0;
+  }
 
-.benefits-list {
-  display: flex;
-  gap: 24px;
-}
+  .benefits-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: var(--cloud-color);
+  }
 
-.benefits-item {
-  width: calc((100% - 72px) / 4);
-}
+  .benefits-item-title {
+    margin-bottom: 8px;
+    color: var(--navyblue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+  }
 
-.benefits-description {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-} */
+  .benefits-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .benefits-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .benefits-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
