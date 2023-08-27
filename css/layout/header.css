@@ -64,6 +64,10 @@
     padding-right: 16px;
   }
 
+  .header-link {
+    margin-right: 120px;
+  }
+
   .header-nav {
     display: flex;
     align-items: center;
@@ -159,6 +163,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .footer-social-link-tablet-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-logo-social-wrapper {
+    margin-right: 120px;
   }
 
   .header-nav {
