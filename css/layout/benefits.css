@@ -1,3 +1,7 @@
+/* ========================================================= */
+/* MOBILE */
+/* ========================================================= */
+
 @media screen and (max-width: 767px) {
   .benefits-icon {
     display: none;
@@ -32,6 +36,46 @@
 }
 
 /* ========================================================= */
+/* TABLET */
+/* ========================================================= */
+
+@media screen and (min-width: 767px) and (max-width: 1157px) {
+  .benefits-icon {
+    display: none;
+  }
+
+  .benefits-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 12px;
+  }
+
+  .benefits-item-title {
+    margin-bottom: 8px;
+    color: var(--navyblue-color);
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+  }
+
+  .benefits-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .benefits-description {
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+}
+
+/* ========================================================= */
+/* DESKTOP */
 /* ========================================================= */
 
 @media screen and (min-width: 1128px) {
@@ -65,7 +109,7 @@
   }
 
   .benefits-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
   }
 
   .benefits-description {
