@@ -108,7 +108,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 64px 24px;
   }
 
   .team-item {
